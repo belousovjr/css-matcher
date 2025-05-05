@@ -1,6 +1,6 @@
 {
   "name": "css-rules-matcher",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "description": "A lightweight utility to partially restore the behavior of the deprecated window.getMatchedCSSRules method.",
   "repository": {
@@ -11,12 +11,12 @@
   "main": "./dist/css-rules-matcher.cjs",
   "module": "./dist/css-rules-matcher.js",
   "unpkg": "./dist/css-rules-matcher.umd.cjs",
-  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/css-rules-matcher.js",
       "require": "./dist/css-rules-matcher.cjs",
-      "default": "./dist/css-rules-matcher.umd.cjs"
+      "default": "./dist/css-rules-matcher.umd.cjs",
+      "types": "./dist/index.d.ts"
     }
   },
   "files": [
@@ -33,6 +33,21 @@
     "vite": "^6.3.1",
     "vite-plugin-dts": "^4.5.3"
   },
-  "keywords": ["css", "style", "styles", "dom", "match", "browser", "selector", "stylesheets", "element", "css3", "css3"],
-  "license": "MIT"
+  "keywords": [
+    "css",
+    "style",
+    "styles",
+    "dom",
+    "match",
+    "browser",
+    "selector",
+    "stylesheets",
+    "element",
+    "css3",
+    "css3"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "csstype": "^3.1.3"
+  }
 }
