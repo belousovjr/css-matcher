@@ -81,4 +81,5 @@ Returns an array of `CSSStyleRule` objects matching the specified properties on 
 
 ## Contributing
 
-Contributions are welcome!
+Contributions are welcome!  
+You can open issues or pull requests on [GitHub](https://github.com/belousovjr/css-matcher).
