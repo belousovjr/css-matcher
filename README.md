@@ -27,7 +27,7 @@ yarn add css-rules-matcher
 
 **CDN:**
 ```html
-<script src="https://unpkg.com/css-rules-matcher@0.0.2/dist/css-rules-matcher.umd.cjs"></script>
+<script src="https://unpkg.com/css-rules-matcher@0.0.3/dist/css-rules-matcher.umd.cjs"></script>
 ```
 
 ## Overview
