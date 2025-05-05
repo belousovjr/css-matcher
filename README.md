@@ -27,7 +27,7 @@ yarn add css-matcher
 
 ## Overview
 
-Modern browsers have removed `getMatchedCSSRules` from their APIs, making it difficult to introspect which CSS rules apply to a given element. `css-matcher` fills this gap by providing a simple interface to retrieve matched CSS rules for specific CSS properties.
+Modern browsers have removed `window.getMatchedCSSRules` from their APIs, making it difficult to introspect which CSS rules apply to a given element. `css-matcher` fills this gap by providing a simple interface to retrieve matched CSS rules for specific CSS properties.
 
 * **Lightweight**: No dependencies.
 * **Fast**: Parses only the specified properties.
