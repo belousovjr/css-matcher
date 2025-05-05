@@ -11,7 +11,7 @@ A lightweight utility to partially restore the behavior of the deprecated `getMa
     * [Basic Example](#basic-example)
 * [API Reference](#api-reference)
 
-    * [`CSSRulesMatcher` Class](#cssmatcher-class)
+    * [`CSSRulesMatcher` Class](#cssrulesmatcher-class)
 * [Properties](#properties)
 * [Contributing](#contributing)
 
