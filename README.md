@@ -27,14 +27,14 @@ yarn add css-rules-matcher
 
 **CDN:**
 ```html
-<script src="https://unpkg.com/css-rules-matcher@0.0.3/dist/css-rules-matcher.umd.cjs"></script>
+<script src="https://unpkg.com/css-rules-matcher@0.0.4/dist/css-rules-matcher.umd.cjs"></script>
 ```
 
 ## Overview
 
 Modern browsers have removed `window.getMatchedCSSRules` from their APIs, making it difficult to introspect which CSS rules apply to a given element. `css-rules-matcher` fills this gap by providing a simple interface to retrieve matched CSS rules for specific CSS properties.
 
-* **Lightweight**: No dependencies.
+* **Lightweight**: No runtime dependencies.
 * **Fast**: Parses only the specified properties.
 
 ## Usage
