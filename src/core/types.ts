@@ -2,8 +2,8 @@ export type StyleProperty = CSSStyleRule["style"][number];
 
 export type Target = HTMLElement;
 
-export type CSSMatcherSnapshot = { [key in StyleProperty]?: Set<CSSStyleRule> };
+export type CSSRulesMatcherSnapshot = { [key in StyleProperty]?: Set<CSSStyleRule> };
 
-export interface CSSMatcherOptions {
+export interface CSSRulesMatcherOptions {
     properties: StyleProperty[];
 }

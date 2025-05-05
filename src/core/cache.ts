@@ -1,7 +1,7 @@
-import { CSSMatcherSnapshot, StyleProperty, Target } from "./types.ts";
+import { CSSRulesMatcherSnapshot, StyleProperty, Target } from "./types.ts";
 
-export abstract class CSSMatcherCache {
-  static #rulesSnapshot: CSSMatcherSnapshot = {};
+export abstract class CSSRulesMatcherCache {
+  static #rulesSnapshot: CSSRulesMatcherSnapshot = {};
 
   static addProperties(properties: StyleProperty[]) {
     for (const property of properties) {
@@ -19,7 +19,7 @@ export abstract class CSSMatcherCache {
           key,
           (byNewProps && this.#rulesSnapshot[key]) || new Set(),
         ]),
-      ) as CSSMatcherSnapshot;
+      ) as CSSRulesMatcherSnapshot;
 
       for (const styleSheet of document.styleSheets) {
         for (const cssRule of styleSheet.cssRules) {
@@ -68,7 +68,7 @@ function observeCSS() {
         ...args
       ) {
         const result = original.apply(this, args);
-        CSSMatcherCache.updateSnapshot();
+        CSSRulesMatcherCache.updateSnapshot();
         return result;
       };
     }
@@ -133,7 +133,7 @@ function observeCSS() {
 
   monkeyPathStyleSheet();
   observeAllStyleTags(() => {
-    CSSMatcherCache.updateSnapshot();
+    CSSRulesMatcherCache.updateSnapshot();
   });
 }
 
