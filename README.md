@@ -1,6 +1,6 @@
 # css-rules-matcher
 
-A lightweight utility to partially restore the behavior of the deprecated `getMatchedCSSRules` method.
+A lightweight utility to partially restore the behavior of the deprecated `window.getMatchedCSSRules` method.
 
 ## Table of Contents
 
@@ -23,6 +23,11 @@ Install via npm or yarn:
 npm install css-rules-matcher --save
 # or
 yarn add css-rules-matcher
+```
+
+**CDN:**
+```html
+<script src="https://unpkg.com/css-rules-matcher@0.0.2/dist/css-rules-matcher.umd.cjs"></script>
 ```
 
 ## Overview
