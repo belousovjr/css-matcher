@@ -1,6 +1,6 @@
 # css-rules-matcher
 
-A lightweight utility to partially restore the behavior of the deprecated `getMatchedCSSRules` method.
+A lightweight utility to partially restore the behavior of the deprecated `window.getMatchedCSSRules` method.
 
 ## Table of Contents
 
