@@ -7,8 +7,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      name: "CSSMatcher",
-      fileName: "css-matcher",
+      name: "CSSRulesMatcher",
+      fileName: "css-rules-matcher",
       formats: ["es", "cjs", "umd"],
     },
   },

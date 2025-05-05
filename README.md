@@ -1,4 +1,4 @@
-# css-matcher
+# css-rules-matcher
 
 A lightweight utility to partially restore the behavior of the deprecated `getMatchedCSSRules` method.
 
@@ -11,7 +11,7 @@ A lightweight utility to partially restore the behavior of the deprecated `getMa
     * [Basic Example](#basic-example)
 * [API Reference](#api-reference)
 
-    * [`CSSMatcher` Class](#cssmatcher-class)
+    * [`CSSRulesMatcher` Class](#cssmatcher-class)
 * [Properties](#properties)
 * [Contributing](#contributing)
 
@@ -20,14 +20,14 @@ A lightweight utility to partially restore the behavior of the deprecated `getMa
 Install via npm or yarn:
 
 ```bash
-npm install css-matcher --save
+npm install css-rules-matcher --save
 # or
-yarn add css-matcher
+yarn add css-rules-matcher
 ```
 
 ## Overview
 
-Modern browsers have removed `window.getMatchedCSSRules` from their APIs, making it difficult to introspect which CSS rules apply to a given element. `css-matcher` fills this gap by providing a simple interface to retrieve matched CSS rules for specific CSS properties.
+Modern browsers have removed `window.getMatchedCSSRules` from their APIs, making it difficult to introspect which CSS rules apply to a given element. `css-rules-matcher` fills this gap by providing a simple interface to retrieve matched CSS rules for specific CSS properties.
 
 * **Lightweight**: No dependencies.
 * **Fast**: Parses only the specified properties.
@@ -37,10 +37,10 @@ Modern browsers have removed `window.getMatchedCSSRules` from their APIs, making
 ### Basic Example
 
 ```ts
-import CSSMatcher from 'css-matcher';
+import CSSRulesMatcher from 'css-rules-matcher';
 
 // Create a matcher for specific CSS properties
-const matcher = new CSSMatcher({
+const matcher = new CSSRulesMatcher({
   properties: ['background-color', 'color', 'font-size'],
 });
 
@@ -57,7 +57,7 @@ console.log(rules); // Array of CSSStyleRule objects
 
 ## API Reference
 
-### `CSSMatcher` Class
+### `CSSRulesMatcher` Class
 
 #### Constructor
 
@@ -82,4 +82,4 @@ Returns an array of `CSSStyleRule` objects matching the specified properties on 
 ## Contributing
 
 Contributions are welcome!  
-You can open issues or pull requests on [GitHub](https://github.com/belousovjr/css-matcher).
+You can open issues or pull requests on [GitHub](https://github.com/belousovjr/css-rules-matcher).

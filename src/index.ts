@@ -1,3 +1,3 @@
-import CSSMatcher from "./core/CSSMatcher.ts";
+import CSSRulesMatcher from "./core/CSSRulesMatcher.ts";
 
-export default CSSMatcher;
+export default CSSRulesMatcher;

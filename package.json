@@ -1,17 +1,17 @@
 {
-  "name": "css-matcher",
+  "name": "css-rules-matcher",
   "version": "0.0.0",
   "type": "module",
   "description": "A lightweight utility to partially restore the behavior of the deprecated window.getMatchedCSSRules method.",
-  "main": "./dist/css-matcher.cjs",
-  "module": "./dist/css-matcher.js",
-  "unpkg": "./dist/css-matcher.umd.cjs",
+  "main": "./dist/css-rules-matcher.cjs",
+  "module": "./dist/css-rules-matcher.js",
+  "unpkg": "./dist/css-rules-matcher.umd.cjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/css-matcher.js",
-      "require": "./dist/css-matcher.cjs",
-      "default": "./dist/css-matcher.umd.cjs"
+      "import": "./dist/css-rules-matcher.js",
+      "require": "./dist/css-rules-matcher.cjs",
+      "default": "./dist/css-rules-matcher.umd.cjs"
     }
   },
   "files": [
