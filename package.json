@@ -1,11 +1,11 @@
 {
   "name": "css-rules-matcher",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "type": "module",
   "description": "A lightweight utility to partially restore the behavior of the deprecated window.getMatchedCSSRules method.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chore: bump version to 0.0.3 Valentin Belousov Yesterday 18:32belousovjr/css-rules-matcher.git"
+    "url": "https://github.com/belousovjr/css-rules-matcher.git"
   },
   "homepage": "https://github.com/belousovjr/css-rules-matcher#readme",
   "main": "./dist/css-rules-matcher.cjs",
