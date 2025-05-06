@@ -1,6 +1,6 @@
 {
   "name": "css-rules-matcher",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "type": "module",
   "description": "A lightweight utility to partially restore the behavior of the deprecated window.getMatchedCSSRules method.",
   "repository": {
