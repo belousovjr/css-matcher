@@ -13,7 +13,6 @@ A lightweight utility to partially restore the behavior of the deprecated `windo
 
     * [`CSSRulesMatcher` Class](#cssrulesmatcher-class)
 * [Properties](#properties)
-* [Contributing](#contributing)
 
 ## Installation
 
@@ -27,7 +26,7 @@ yarn add css-rules-matcher
 
 **CDN:**
 ```html
-<script src="https://unpkg.com/css-rules-matcher@0.0.7/dist/css-rules-matcher.umd.cjs"></script>
+<script src="https://unpkg.com/css-rules-matcher@0.0.8/dist/css-rules-matcher.umd.cjs"></script>
 ```
 
 ## Overview
@@ -84,7 +83,7 @@ Returns an array of `CSSStyleRule` objects matching the specified properties on 
 * **Exact Matching**: Only rules that explicitly set one of the specified properties are returned.
 * **Order**: Rules are returned in the order they appear in the active stylesheets.
 
-## Contributing
+---
 
-Contributions are welcome!  
-You can open issues or pull requests on [GitHub](https://github.com/belousovjr/css-rules-matcher).
+*Issues, suggestions, and pull requests are welcome!  
+Feel free to check out the  [GitHub](https://github.com/belousovjr/css-rules-matcher).*
