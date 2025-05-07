@@ -11,6 +11,7 @@
   "main": "./dist/css-rules-matcher.cjs",
   "module": "./dist/css-rules-matcher.js",
   "unpkg": "./dist/css-rules-matcher.umd.cjs",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
